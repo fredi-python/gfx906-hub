@@ -1,6 +1,7 @@
 {
-  "updated": "2026-11-11",
-  "note": "Tracked-repo list for the MI50/gfx906 hub. Edit here (this file is the only list the nightly check reads). status: active = tracked for changes, watch = interesting, reference = kept for context. The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
+  "updated": "2026-11-12",
+  "note": "Tracked-repo list for the MI50/gfx906 hub — gfx906 forks only (Brad 2026-11-12; canonical list incoming). Edit here (this file is the only list the nightly check reads). status: active = tracked for changes, watch = interesting, reference = kept for context. category: one of 'categories' below (block order on the page); the 'updated' column is the repo's real last push (GitHub API), newest first within a block. The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
+  "categories": ["vllm", "strata", "llamacpp", "other"],
   "repos": [
     {
       "id": "cassettesgoboom-gfx906-fa-vllm",
@@ -9,7 +10,8 @@
       "remote": "https://github.com/cassettesgoboom/gfx906-fa-vllm",
       "ref": "HEAD",
       "role": "gfx906 flash-attention kernels for vLLM (upstream of the gfx906_fa backend)",
-      "status": "active"
+      "status": "active",
+      "category": "vllm"
     },
     {
       "id": "curvedinf-int8-vllm",
@@ -18,16 +20,8 @@
       "remote": "https://github.com/curvedinf/int8-vllm",
       "ref": "HEAD",
       "role": "int8 vLLM for gfx906 (dot4 lineage)",
-      "status": "active"
-    },
-    {
-      "id": "curvedinf-int8-aiter",
-      "owner": "curvedinf",
-      "name": "int8-aiter",
-      "remote": "https://github.com/curvedinf/int8-aiter",
-      "ref": "HEAD",
-      "role": "int8 AITER kernels for gfx906",
-      "status": "active"
+      "status": "active",
+      "category": "vllm"
     },
     {
       "id": "Luce-Org-lucebox",
@@ -36,7 +30,8 @@
       "remote": "https://github.com/Luce-Org/lucebox",
       "ref": "HEAD",
       "role": "dflash / PFlash optimization lane (Qwen 3.8 Flash-Next)",
-      "status": "active"
+      "status": "active",
+      "category": "vllm"
     },
     {
       "id": "KIntegrated-vllm-gfx906-mobydick",
@@ -45,7 +40,8 @@
       "remote": "https://github.com/KIntegrated/vllm-gfx906-mobydick",
       "ref": "HEAD",
       "role": "gfx906 vLLM fork (mobydick)",
-      "status": "active"
+      "status": "active",
+      "category": "vllm"
     },
     {
       "id": "0c33-mi50-vllm-lab",
@@ -54,25 +50,8 @@
       "remote": "https://github.com/0c33/mi50-vllm-lab",
       "ref": "HEAD",
       "role": "MI50 vLLM lab — 27B on 2x MI50, gfx906_skinny 4-bit kernels",
-      "status": "active"
-    },
-    {
-      "id": "ROCm-aiter",
-      "owner": "ROCm",
-      "name": "aiter",
-      "remote": "https://github.com/ROCm/aiter",
-      "ref": "HEAD",
-      "role": "AMD AITER — reference for gfx906 gaps (CDNA3+ paths)",
-      "status": "watch"
-    },
-    {
-      "id": "joe2gaan-localaiservers",
-      "owner": "joe2gaan",
-      "name": "localaiservers",
-      "remote": "https://github.com/joe2gaan/localaiservers",
-      "ref": "HEAD",
-      "role": "gfx906 compute site: deploy scripts, bench reports, closed .so overlays (vNext)",
-      "status": "active"
+      "status": "active",
+      "category": "vllm"
     },
     {
       "id": "ttdxq-gfx906-vllm",
@@ -81,25 +60,8 @@
       "remote": "https://github.com/ttdxq/gfx906-vllm",
       "ref": "HEAD",
       "role": "open .cu gfx906 vLLM fork (GDN decode stack)",
-      "status": "active"
-    },
-    {
-      "id": "btbtyler09-vllm-gfx908",
-      "owner": "btbtyler09",
-      "name": "vllm-gfx908",
-      "remote": "https://github.com/btbtyler09/vllm-gfx908",
-      "ref": "HEAD",
-      "role": "MI100/gfx908 vLLM fork — reference only",
-      "status": "reference"
-    },
-    {
-      "id": "larkinwc-vllm-gfx908",
-      "owner": "larkinwc",
-      "name": "vllm-gfx908",
-      "remote": "https://github.com/larkinwc/vllm-gfx908",
-      "ref": "HEAD",
-      "role": "older MI100 vLLM fork — reference only",
-      "status": "reference"
+      "status": "active",
+      "category": "vllm"
     },
     {
       "id": "Lowkey-Loki-SN-noflash-attention",
@@ -108,7 +70,8 @@
       "remote": "https://github.com/Lowkey-Loki-SN/noflash-attention",
       "ref": "HEAD",
       "role": "no-flash attention experiments for gfx906",
-      "status": "active"
+      "status": "active",
+      "category": "vllm"
     },
     {
       "id": "mixa3607-ML-gfx906",
@@ -117,16 +80,8 @@
       "remote": "https://github.com/mixa3607/ML-gfx906",
       "ref": "HEAD",
       "role": "gfx906 ML base (upstream of the cassettesgoboom FA work)",
-      "status": "active"
-    },
-    {
-      "id": "leapdragon-vllm-rdna2-qwen",
-      "owner": "leapdragon",
-      "name": "vllm-rdna2-qwen",
-      "remote": "https://github.com/leapdragon/vllm-rdna2-qwen",
-      "ref": "rdna2/qwen38-flash-next",
-      "role": "RDNA2 4x32GB Qwen3.8-Flash-Next port (docs lane)",
-      "status": "watch"
+      "status": "active",
+      "category": "vllm"
     },
     {
       "id": "vllm-project-vllm",
@@ -134,8 +89,39 @@
       "name": "vllm",
       "remote": "https://github.com/vllm-project/vllm",
       "ref": "HEAD",
-      "role": "mainline vLLM — gfx906 support is landing here upstream",
-      "status": "active"
+      "role": "mainline vLLM — gfx906 support is landing here upstream (upstream ref, not a fork — drop on request)",
+      "status": "watch",
+      "category": "vllm"
+    },
+    {
+      "id": "ROCm-aiter",
+      "owner": "ROCm",
+      "name": "aiter",
+      "remote": "https://github.com/ROCm/aiter",
+      "ref": "HEAD",
+      "role": "AMD AITER — reference for gfx906 gaps (CDNA3+ paths) (upstream ref, not a fork — drop on request)",
+      "status": "watch",
+      "category": "strata"
+    },
+    {
+      "id": "curvedinf-int8-aiter",
+      "owner": "curvedinf",
+      "name": "int8-aiter",
+      "remote": "https://github.com/curvedinf/int8-aiter",
+      "ref": "HEAD",
+      "role": "int8 AITER kernels for gfx906",
+      "status": "active",
+      "category": "strata"
+    },
+    {
+      "id": "joe2gaan-localaiservers",
+      "owner": "joe2gaan",
+      "name": "localaiservers",
+      "remote": "https://github.com/joe2gaan/localaiservers",
+      "ref": "HEAD",
+      "role": "gfx906 compute site: deploy scripts, bench reports, closed .so overlays (vNext)",
+      "status": "active",
+      "category": "other"
     }
   ]
 }
