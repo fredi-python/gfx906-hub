@@ -7,10 +7,10 @@
   "pushed_at": "2026-04-22"
  },
  "curvedinf-int8-vllm": {
-  "sha": "03705db9fcefc9facd49929c005c0a4e5734c638",
-  "prev": "a43e18da36189a19940fd0f5b7727f80597f41a7",
+  "sha": "971ed9281347edb697313b07cc16fd13e670986c",
+  "prev": "03705db9fcefc9facd49929c005c0a4e5734c638",
   "date": "2026-11-12",
-  "count": 3,
+  "count": 1,
   "pushed_at": "2026-11-12"
  },
  "curvedinf-int8-aiter": {

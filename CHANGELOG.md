@@ -17,3 +17,4 @@
 - **curvedinf/int8-vllm** `a43e18da` → `03705db9` ([compare](https://github.com/curvedinf/int8-vllm/compare/a43e18da36189a19940fd0f5b7727f80597f41a7...03705db9fcefc9facd49929c005c0a4e5734c638))
 - **vllm-project/vllm** `df5d8033` → `c74cab9b` ([compare](https://github.com/vllm-project/vllm/compare/df5d80339b5fbca645e991444970b75fa330cd35...c74cab9b33659e92de9ca9c35eb949c78ebbe64c))
 - **ROCm/aiter** `04df8dd4` → `27f774a9` ([compare](https://github.com/ROCm/aiter/compare/04df8dd468d2563e035db254e94d6ad1781e311d...27f774a92f02467fa99f707139d26abf81e8f37a))
+- **curvedinf/int8-vllm** `03705db9` → `971ed928` ([compare](https://github.com/curvedinf/int8-vllm/compare/03705db9fcefc9facd49929c005c0a4e5734c638...971ed9281347edb697313b07cc16fd13e670986c))

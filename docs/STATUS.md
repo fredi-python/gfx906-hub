@@ -3,12 +3,12 @@
 > Regenerated nightly by `gfx906-hub-check.py` (the README blocks are the digest of this file).
 > Hand edits will be overwritten.
 
-_Updated 2026-11-12 19:35 UTC._
+_Updated 2026-11-12 19:47 UTC._
 
 | repo | category | role | ref | head | updated | compare |
 |---|---|---|---|---|---|---|
 | cassettesgoboom/gfx906-fa-vllm | vllm | gfx906 flash-attention kernels for vLLM (upstream of the gfx906_fa backend) | `HEAD` | `e0eb52a3` | 2026-04-22 | - |
-| curvedinf/int8-vllm | vllm | int8 vLLM for gfx906 (dot4 lineage) | `HEAD` | `03705db9` | 2026-11-12 | https://github.com/curvedinf/int8-vllm/compare/a43e18da36189a19940fd0f5b7727f80597f41a7...03705db9fcefc9facd49929c005c0a4e5734c638 |
+| curvedinf/int8-vllm | vllm | int8 vLLM for gfx906 (dot4 lineage) | `HEAD` | `971ed928` | 2026-11-12 | https://github.com/curvedinf/int8-vllm/compare/03705db9fcefc9facd49929c005c0a4e5734c638...971ed9281347edb697313b07cc16fd13e670986c |
 | Luce-Org/lucebox | vllm | dflash / PFlash optimization lane (Qwen 3.8 Flash-Next) | `HEAD` | `cbc6d7c2` | 2026-11-12 | https://github.com/Luce-Org/lucebox/compare/a08825666baabb4fe5af9d75109552a6b25b1848...cbc6d7c27108e984599e22670564aae16e0e7eb4 |
 | KIntegrated/vllm-gfx906-mobydick | vllm | gfx906 vLLM fork (mobydick) | `HEAD` | `3857591d` | 2026-10-26 | - |
 | ai-infos/vllm-gfx906-mobydick | vllm | gfx906 vLLM fork (mobydick — ai-infos branch; Radeon VII / MI50 / MI60) | `HEAD` | `e7b96a5e` | 2026-10-08 | - |
