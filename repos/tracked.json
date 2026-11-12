@@ -44,6 +44,16 @@
       "category": "vllm"
     },
     {
+      "id": "ai-infos-vllm-gfx906-mobydick",
+      "owner": "ai-infos",
+      "name": "vllm-gfx906-mobydick",
+      "remote": "https://github.com/ai-infos/vllm-gfx906-mobydick",
+      "ref": "HEAD",
+      "role": "gfx906 vLLM fork (mobydick — ai-infos branch; Radeon VII / MI50 / MI60)",
+      "status": "active",
+      "category": "vllm"
+    },
+    {
       "id": "0c33-mi50-vllm-lab",
       "owner": "0c33",
       "name": "mi50-vllm-lab",
@@ -82,6 +92,16 @@
       "role": "gfx906 ML base (upstream of the cassettesgoboom FA work)",
       "status": "active",
       "category": "vllm"
+    },
+    {
+      "id": "mxxm-t-mx-llama.cpp",
+      "owner": "mxxm-t",
+      "name": "mx-llama.cpp",
+      "remote": "https://github.com/mxxm-t/mx-llama.cpp",
+      "ref": "HEAD",
+      "role": "llama.cpp fork (mx build)",
+      "status": "active",
+      "category": "llamacpp"
     },
     {
       "id": "vllm-project-vllm",
