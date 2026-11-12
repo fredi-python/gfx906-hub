@@ -7,10 +7,10 @@
   "pushed_at": "2026-04-22"
  },
  "curvedinf-int8-vllm": {
-  "sha": "a43e18da36189a19940fd0f5b7727f80597f41a7",
-  "prev": "73a386c8fa8539d167a529718b3c4dacbf5e5ea8",
+  "sha": "03705db9fcefc9facd49929c005c0a4e5734c638",
+  "prev": "a43e18da36189a19940fd0f5b7727f80597f41a7",
   "date": "2026-11-12",
-  "count": 7,
+  "count": 3,
   "pushed_at": "2026-11-12"
  },
  "curvedinf-int8-aiter": {
@@ -42,8 +42,8 @@
   "pushed_at": "2026-10-26"
  },
  "ROCm-aiter": {
-  "sha": "04df8dd468d2563e035db254e94d6ad1781e311d",
-  "prev": "37da1dbeb305e868dda2e52d0d084a30fd71a99c",
+  "sha": "27f774a92f02467fa99f707139d26abf81e8f37a",
+  "prev": "04df8dd468d2563e035db254e94d6ad1781e311d",
   "date": "2026-11-12",
   "count": 1,
   "pushed_at": "2026-11-12"
@@ -77,10 +77,10 @@
   "pushed_at": "2026-11-06"
  },
  "vllm-project-vllm": {
-  "sha": "df5d80339b5fbca645e991444970b75fa330cd35",
-  "prev": "a7933519764efd3b51782ebd7df4362c527e4a4c",
+  "sha": "c74cab9b33659e92de9ca9c35eb949c78ebbe64c",
+  "prev": "df5d80339b5fbca645e991444970b75fa330cd35",
   "date": "2026-11-12",
-  "count": 5,
+  "count": 2,
   "pushed_at": "2026-11-12"
  },
  "_unreachable": [],

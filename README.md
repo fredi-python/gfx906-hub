@@ -56,5 +56,5 @@ https://www.reddit.com/r/LocalAIServers/comments/1ukhr24/
 [CHANGELOG.md](CHANGELOG.md) — every nightly drift, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
-_Hub status last refreshed: 2026-11-12 18:53 UTC — 14 tracked, 0 unreachable._
+_Hub status last refreshed: 2026-11-12 19:35 UTC — 14 tracked, 0 unreachable._
 <!-- HUB-FOOTER:END -->
