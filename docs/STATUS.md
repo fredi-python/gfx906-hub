@@ -3,7 +3,7 @@
 > Regenerated nightly by `gfx906-hub-check.py` (the README table is the digest of this file).
 > Hand edits will be overwritten.
 
-_Updated 2026-11-12 03:09 UTC._
+_Updated 2026-11-12 03:43 UTC._
 
 | repo | role | status | ref | last seen | updated | compare |
 |---|---|---|---|---|---|---|
@@ -21,4 +21,4 @@ _Updated 2026-11-12 03:09 UTC._
 | Lowkey-Loki-SN/noflash-attention | no-flash attention experiments for gfx906 | active | `HEAD` | `8ffe5793` | 2026-11-12 | - |
 | mixa3607/ML-gfx906 | gfx906 ML base (upstream of the cassettesgoboom FA work) | active | `HEAD` | `4c4fb1d2` | 2026-11-12 | - |
 | leapdragon/vllm-rdna2-qwen | RDNA2 4x32GB Qwen3.8-Flash-Next port (docs lane) | watch | `rdna2/qwen38-flash-next` | `160184aa` | 2026-11-12 | - |
-| vllm-project/vllm | mainline vLLM — gfx906 support is landing here upstream | active | `HEAD` | `0854d2f2` | 2026-11-12 | - |
+| vllm-project/vllm | mainline vLLM — gfx906 support is landing here upstream | active | `HEAD` | `52373885` | 2026-11-12 | https://github.com/vllm-project/vllm/compare/0854d2f280ef11a404ae56b4fe708f0462bca20d...52373885168d70886d0a047477a33f65f06b5dc0 |

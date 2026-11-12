@@ -70,9 +70,10 @@
   "date": "2026-11-12"
  },
  "vllm-project-vllm": {
-  "sha": "0854d2f280ef11a404ae56b4fe708f0462bca20d",
-  "prev": null,
+  "sha": "52373885168d70886d0a047477a33f65f06b5dc0",
+  "prev": "0854d2f280ef11a404ae56b4fe708f0462bca20d",
   "date": "2026-11-12"
  },
- "_unreachable": []
+ "_unreachable": [],
+ "_tracked_count": 15
 }

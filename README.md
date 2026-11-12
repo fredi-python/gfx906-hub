@@ -24,7 +24,7 @@ tracked forks, and the standing setup notes.
 | [Lowkey-Loki-SN/noflash-attention](https://github.com/Lowkey-Loki-SN/noflash-attention) | no-flash attention experiments for gfx906 | active | `8ffe5793` | 2026-11-12 | - |
 | [mixa3607/ML-gfx906](https://github.com/mixa3607/ML-gfx906) | gfx906 ML base (upstream of the cassettesgoboom FA work) | active | `4c4fb1d2` | 2026-11-12 | - |
 | [leapdragon/vllm-rdna2-qwen](https://github.com/leapdragon/vllm-rdna2-qwen/tree/rdna2/qwen38-flash-next) | RDNA2 4x32GB Qwen3.8-Flash-Next port (docs lane) | watch | `160184aa` | 2026-11-12 | - |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | mainline vLLM — gfx906 support is landing here upstream | active | `0854d2f2` | 2026-11-12 | - |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | mainline vLLM — gfx906 support is landing here upstream | active | `52373885` | 2026-11-12 | [diff](https://github.com/vllm-project/vllm/compare/0854d2f280ef11a404ae56b4fe708f0462bca20d...52373885168d70886d0a047477a33f65f06b5dc0) |
 <!-- HUB-STATUS:END -->
 
 ## Common info
@@ -42,5 +42,5 @@ https://www.reddit.com/r/LocalAIServers/comments/1ukhr24/
 [CHANGELOG.md](CHANGELOG.md) — every nightly drift, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
-_Hub status last refreshed: 2026-11-12 03:09 UTC — 15 tracked, 0 unreachable._
+_Hub status last refreshed: 2026-11-12 03:43 UTC — 15 tracked, 0 unreachable._
 <!-- HUB-FOOTER:END -->
