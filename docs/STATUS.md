@@ -3,7 +3,7 @@
 > Regenerated nightly by `gfx906-hub-check.py` (the README table is the digest of this file).
 > Hand edits will be overwritten.
 
-_Updated 2026-11-12 03:08 UTC._
+_Updated 2026-11-12 03:09 UTC._
 
 | repo | role | status | ref | last seen | updated | compare |
 |---|---|---|---|---|---|---|
