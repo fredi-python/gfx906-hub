@@ -2,78 +2,87 @@
  "cassettesgoboom-gfx906-fa-vllm": {
   "sha": "e0eb52a344773bb29b22fafc71502d3d39df54f6",
   "prev": null,
-  "date": "2026-11-12"
+  "date": "2026-11-12",
+  "count": 0,
+  "pushed_at": "2026-04-22"
  },
  "curvedinf-int8-vllm": {
-  "sha": "ad1f166ba59acc4eec9fb7c608e944c976b793de",
-  "prev": null,
-  "date": "2026-11-12"
+  "sha": "73a386c8fa8539d167a529718b3c4dacbf5e5ea8",
+  "prev": "ad1f166ba59acc4eec9fb7c608e944c976b793de",
+  "date": "2026-11-12",
+  "count": 50,
+  "pushed_at": "2026-11-12"
  },
  "curvedinf-int8-aiter": {
-  "sha": "2d5f5e0b55325f0799538550b2a63722092deac5",
-  "prev": null,
-  "date": "2026-11-12"
+  "sha": "cd53c11c6d399cd79aee9500536dc5f8206f6ea3",
+  "prev": "2d5f5e0b55325f0799538550b2a63722092deac5",
+  "date": "2026-11-12",
+  "count": 4,
+  "pushed_at": "2026-11-12"
  },
  "Luce-Org-lucebox": {
-  "sha": "a08825666baabb4fe5af9d75109552a6b25b1848",
-  "prev": null,
-  "date": "2026-11-12"
+  "sha": "cbc6d7c27108e984599e22670564aae16e0e7eb4",
+  "prev": "a08825666baabb4fe5af9d75109552a6b25b1848",
+  "date": "2026-11-12",
+  "count": 6,
+  "pushed_at": "2026-11-12"
  },
  "KIntegrated-vllm-gfx906-mobydick": {
   "sha": "3857591d7c0956fd694c5b63b1e4557531d693b1",
   "prev": null,
-  "date": "2026-11-12"
+  "date": "2026-11-12",
+  "count": 0,
+  "pushed_at": "2026-10-26"
  },
  "0c33-mi50-vllm-lab": {
   "sha": "eb3b1728ec94d95e06f5014a80fda736e41a4f95",
   "prev": null,
-  "date": "2026-11-12"
+  "date": "2026-11-12",
+  "count": 0,
+  "pushed_at": "2026-10-26"
  },
  "ROCm-aiter": {
-  "sha": "e9efac0e281410c5a0cf0bc5e8c6734feb8ce2f8",
-  "prev": "6a80ddd9d23f3d76b4ce6b9b69f9d92073045bb5",
-  "date": "2026-11-12"
+  "sha": "37da1dbeb305e868dda2e52d0d084a30fd71a99c",
+  "prev": "e9efac0e281410c5a0cf0bc5e8c6734feb8ce2f8",
+  "date": "2026-11-12",
+  "count": 12,
+  "pushed_at": "2026-11-12"
  },
  "joe2gaan-localaiservers": {
   "sha": "3502012dd7fa9ddf190d2208bb3d4914116f37c5",
   "prev": null,
-  "date": "2026-11-12"
+  "date": "2026-11-12",
+  "count": 0,
+  "pushed_at": "2026-07-01"
  },
  "ttdxq-gfx906-vllm": {
   "sha": "3eeb931d9c77badb102ae767c3e6dd02fa439371",
   "prev": null,
-  "date": "2026-11-12"
- },
- "btbtyler09-vllm-gfx908": {
-  "sha": "745883c4197e5bacd438f68de2ec509f5a890f50",
-  "prev": null,
-  "date": "2026-11-12"
- },
- "larkinwc-vllm-gfx908": {
-  "sha": "42d53e58525aaf63bcbf522c1ef0efd313eb86e7",
-  "prev": null,
-  "date": "2026-11-12"
+  "date": "2026-11-12",
+  "count": 0,
+  "pushed_at": "2026-11-08"
  },
  "Lowkey-Loki-SN-noflash-attention": {
   "sha": "8ffe5793416cf493676a11491aaeed42f5a4bed6",
   "prev": null,
-  "date": "2026-11-12"
+  "date": "2026-11-12",
+  "count": 0,
+  "pushed_at": "2026-03-28"
  },
  "mixa3607-ML-gfx906": {
   "sha": "4c4fb1d2644bf79bab81c90076be9fc4a794e81f",
   "prev": null,
-  "date": "2026-11-12"
- },
- "leapdragon-vllm-rdna2-qwen": {
-  "sha": "160184aa5cc12de3886e1e7e7ade34bf2df25c37",
-  "prev": null,
-  "date": "2026-11-12"
+  "date": "2026-11-12",
+  "count": 0,
+  "pushed_at": "2026-11-06"
  },
  "vllm-project-vllm": {
-  "sha": "c6573eed5e56fd39b01d610db04616ed9b221851",
-  "prev": "52373885168d70886d0a047477a33f65f06b5dc0",
-  "date": "2026-11-12"
+  "sha": "a7933519764efd3b51782ebd7df4362c527e4a4c",
+  "prev": "c6573eed5e56fd39b01d610db04616ed9b221851",
+  "date": "2026-11-12",
+  "count": 34,
+  "pushed_at": "2026-11-12"
  },
  "_unreachable": [],
- "_tracked_count": 15
+ "_tracked_count": 12
 }

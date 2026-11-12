@@ -5,3 +5,8 @@
 - **vllm-project/vllm** `0854d2f2` → `52373885` ([compare](https://github.com/vllm-project/vllm/compare/0854d2f280ef11a404ae56b4fe708f0462bca20d...52373885168d70886d0a047477a33f65f06b5dc0))
 - **ROCm/aiter** `6a80ddd9` → `e9efac0e` ([compare](https://github.com/ROCm/aiter/compare/6a80ddd9d23f3d76b4ce6b9b69f9d92073045bb5...e9efac0e281410c5a0cf0bc5e8c6734feb8ce2f8))
 - **vllm-project/vllm** `52373885` → `c6573eed` ([compare](https://github.com/vllm-project/vllm/compare/52373885168d70886d0a047477a33f65f06b5dc0...c6573eed5e56fd39b01d610db04616ed9b221851))
+- **curvedinf/int8-vllm** `ad1f166b` → `73a386c8` ([compare](https://github.com/curvedinf/int8-vllm/compare/ad1f166ba59acc4eec9fb7c608e944c976b793de...73a386c8fa8539d167a529718b3c4dacbf5e5ea8))
+- **Luce-Org/lucebox** `a0882566` → `cbc6d7c2` ([compare](https://github.com/Luce-Org/lucebox/compare/a08825666baabb4fe5af9d75109552a6b25b1848...cbc6d7c27108e984599e22670564aae16e0e7eb4))
+- **vllm-project/vllm** `c6573eed` → `a7933519` ([compare](https://github.com/vllm-project/vllm/compare/c6573eed5e56fd39b01d610db04616ed9b221851...a7933519764efd3b51782ebd7df4362c527e4a4c))
+- **ROCm/aiter** `e9efac0e` → `37da1dbe` ([compare](https://github.com/ROCm/aiter/compare/e9efac0e281410c5a0cf0bc5e8c6734feb8ce2f8...37da1dbeb305e868dda2e52d0d084a30fd71a99c))
+- **curvedinf/int8-aiter** `2d5f5e0b` → `cd53c11c` ([compare](https://github.com/curvedinf/int8-aiter/compare/2d5f5e0b55325f0799538550b2a63722092deac5...cd53c11c6d399cd79aee9500536dc5f8206f6ea3))
