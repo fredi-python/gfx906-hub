@@ -8,7 +8,23 @@ tracked forks, and the standing setup notes.
 ## Tracked repos
 
 <!-- HUB-STATUS:BEGIN -->
-_baseline pending — the nightly check fills this in_
+| repo | role | status | last seen | updated | compare |
+|---|---|---|---|---|---|
+| [cassettesgoboom/gfx906-fa-vllm](https://github.com/cassettesgoboom/gfx906-fa-vllm) | gfx906 flash-attention kernels for vLLM (upstream of the gfx906_fa backend) | active | `e0eb52a3` | 2026-11-12 | - |
+| [curvedinf/int8-vllm](https://github.com/curvedinf/int8-vllm) | int8 vLLM for gfx906 (dot4 lineage) | active | `ad1f166b` | 2026-11-12 | - |
+| [curvedinf/int8-aiter](https://github.com/curvedinf/int8-aiter) | int8 AITER kernels for gfx906 | active | `2d5f5e0b` | 2026-11-12 | - |
+| [Luce-Org/lucebox](https://github.com/Luce-Org/lucebox) | dflash / PFlash optimization lane (Qwen 3.8 Flash-Next) | active | `a0882566` | 2026-11-12 | - |
+| [KIntegrated/vllm-gfx906-mobydick](https://github.com/KIntegrated/vllm-gfx906-mobydick) | gfx906 vLLM fork (mobydick) | active | `3857591d` | 2026-11-12 | - |
+| [0c33/mi50-vllm-lab](https://github.com/0c33/mi50-vllm-lab) | MI50 vLLM lab — 27B on 2x MI50, gfx906_skinny 4-bit kernels | active | `eb3b1728` | 2026-11-12 | - |
+| [ROCm/aiter](https://github.com/ROCm/aiter) | AMD AITER — reference for gfx906 gaps (CDNA3+ paths) | watch | `6a80ddd9` | 2026-11-12 | - |
+| [joe2gaan/localaiservers](https://github.com/joe2gaan/localaiservers) | gfx906 compute site: deploy scripts, bench reports, closed .so overlays (vNext) | active | `3502012d` | 2026-11-12 | - |
+| [ttdxq/gfx906-vllm](https://github.com/ttdxq/gfx906-vllm) | open .cu gfx906 vLLM fork (GDN decode stack) | active | `3eeb931d` | 2026-11-12 | - |
+| [btbtyler09/vllm-gfx908](https://github.com/btbtyler09/vllm-gfx908) | MI100/gfx908 vLLM fork — reference only | reference | `745883c4` | 2026-11-12 | - |
+| [larkinwc/vllm-gfx908](https://github.com/larkinwc/vllm-gfx908) | older MI100 vLLM fork — reference only | reference | `42d53e58` | 2026-11-12 | - |
+| [Lowkey-Loki-SN/noflash-attention](https://github.com/Lowkey-Loki-SN/noflash-attention) | no-flash attention experiments for gfx906 | active | `8ffe5793` | 2026-11-12 | - |
+| [mixa3607/ML-gfx906](https://github.com/mixa3607/ML-gfx906) | gfx906 ML base (upstream of the cassettesgoboom FA work) | active | `4c4fb1d2` | 2026-11-12 | - |
+| [leapdragon/vllm-rdna2-qwen](https://github.com/leapdragon/vllm-rdna2-qwen/tree/rdna2/qwen38-flash-next) | RDNA2 4x32GB Qwen3.8-Flash-Next port (docs lane) | watch | `160184aa` | 2026-11-12 | - |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | mainline vLLM — gfx906 support is landing here upstream | active | `0854d2f2` | 2026-11-12 | - |
 <!-- HUB-STATUS:END -->
 
 ## Common info
@@ -26,5 +42,5 @@ https://www.reddit.com/r/LocalAIServers/comments/1ukhr24/
 [CHANGELOG.md](CHANGELOG.md) — every nightly drift, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
-_Hub status last refreshed: 2026-11-11 (manual bootstrap) — see CHANGELOG.md._
+_Hub status last refreshed: 2026-11-12 03:08 UTC — 15 tracked, 0 unreachable._
 <!-- HUB-FOOTER:END -->

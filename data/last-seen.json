@@ -1,1 +1,78 @@
-{}
+{
+ "cassettesgoboom-gfx906-fa-vllm": {
+  "sha": "e0eb52a344773bb29b22fafc71502d3d39df54f6",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "curvedinf-int8-vllm": {
+  "sha": "ad1f166ba59acc4eec9fb7c608e944c976b793de",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "curvedinf-int8-aiter": {
+  "sha": "2d5f5e0b55325f0799538550b2a63722092deac5",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "Luce-Org-lucebox": {
+  "sha": "a08825666baabb4fe5af9d75109552a6b25b1848",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "KIntegrated-vllm-gfx906-mobydick": {
+  "sha": "3857591d7c0956fd694c5b63b1e4557531d693b1",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "0c33-mi50-vllm-lab": {
+  "sha": "eb3b1728ec94d95e06f5014a80fda736e41a4f95",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "ROCm-aiter": {
+  "sha": "6a80ddd9d23f3d76b4ce6b9b69f9d92073045bb5",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "joe2gaan-localaiservers": {
+  "sha": "3502012dd7fa9ddf190d2208bb3d4914116f37c5",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "ttdxq-gfx906-vllm": {
+  "sha": "3eeb931d9c77badb102ae767c3e6dd02fa439371",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "btbtyler09-vllm-gfx908": {
+  "sha": "745883c4197e5bacd438f68de2ec509f5a890f50",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "larkinwc-vllm-gfx908": {
+  "sha": "42d53e58525aaf63bcbf522c1ef0efd313eb86e7",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "Lowkey-Loki-SN-noflash-attention": {
+  "sha": "8ffe5793416cf493676a11491aaeed42f5a4bed6",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "mixa3607-ML-gfx906": {
+  "sha": "4c4fb1d2644bf79bab81c90076be9fc4a794e81f",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "leapdragon-vllm-rdna2-qwen": {
+  "sha": "160184aa5cc12de3886e1e7e7ade34bf2df25c37",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "vllm-project-vllm": {
+  "sha": "0854d2f280ef11a404ae56b4fe708f0462bca20d",
+  "prev": null,
+  "date": "2026-11-12"
+ },
+ "_unreachable": []
+}
