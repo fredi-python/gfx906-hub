@@ -30,8 +30,8 @@
   "date": "2026-11-12"
  },
  "ROCm-aiter": {
-  "sha": "6a80ddd9d23f3d76b4ce6b9b69f9d92073045bb5",
-  "prev": null,
+  "sha": "e9efac0e281410c5a0cf0bc5e8c6734feb8ce2f8",
+  "prev": "6a80ddd9d23f3d76b4ce6b9b69f9d92073045bb5",
   "date": "2026-11-12"
  },
  "joe2gaan-localaiservers": {
@@ -70,8 +70,8 @@
   "date": "2026-11-12"
  },
  "vllm-project-vllm": {
-  "sha": "52373885168d70886d0a047477a33f65f06b5dc0",
-  "prev": "0854d2f280ef11a404ae56b4fe708f0462bca20d",
+  "sha": "c6573eed5e56fd39b01d610db04616ed9b221851",
+  "prev": "52373885168d70886d0a047477a33f65f06b5dc0",
   "date": "2026-11-12"
  },
  "_unreachable": [],
