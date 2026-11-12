@@ -10,3 +10,7 @@
 - **vllm-project/vllm** `c6573eed` → `a7933519` ([compare](https://github.com/vllm-project/vllm/compare/c6573eed5e56fd39b01d610db04616ed9b221851...a7933519764efd3b51782ebd7df4362c527e4a4c))
 - **ROCm/aiter** `e9efac0e` → `37da1dbe` ([compare](https://github.com/ROCm/aiter/compare/e9efac0e281410c5a0cf0bc5e8c6734feb8ce2f8...37da1dbeb305e868dda2e52d0d084a30fd71a99c))
 - **curvedinf/int8-aiter** `2d5f5e0b` → `cd53c11c` ([compare](https://github.com/curvedinf/int8-aiter/compare/2d5f5e0b55325f0799538550b2a63722092deac5...cd53c11c6d399cd79aee9500536dc5f8206f6ea3))
+- **curvedinf/int8-vllm** `73a386c8` → `a43e18da` ([compare](https://github.com/curvedinf/int8-vllm/compare/73a386c8fa8539d167a529718b3c4dacbf5e5ea8...a43e18da36189a19940fd0f5b7727f80597f41a7))
+- **vllm-project/vllm** `a7933519` → `df5d8033` ([compare](https://github.com/vllm-project/vllm/compare/a7933519764efd3b51782ebd7df4362c527e4a4c...df5d80339b5fbca645e991444970b75fa330cd35))
+- **ROCm/aiter** `37da1dbe` → `04df8dd4` ([compare](https://github.com/ROCm/aiter/compare/37da1dbeb305e868dda2e52d0d084a30fd71a99c...04df8dd468d2563e035db254e94d6ad1781e311d))
+- **curvedinf/int8-aiter** `cd53c11c` → `b5efe248` ([compare](https://github.com/curvedinf/int8-aiter/compare/cd53c11c6d399cd79aee9500536dc5f8206f6ea3...b5efe248dfc62993ff93bfafed3f6946cac7c653))
