@@ -59,9 +59,19 @@
       "name": "ML-gfx906",
       "remote": "https://github.com/mixa3607/ML-gfx906",
       "ref": "HEAD",
-      "role": "gfx906 ML base (upstream of the cassettesgoboom FA work)",
+      "role": "gfx906 ML base (upstream of the cassettesgoboom FA work) — single monorepo, per-project pages below",
       "status": "active",
-      "category": "vllm"
+      "category": "vllm",
+      "links": [
+        {"label": "vllm", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/vllm-v2/README.md"},
+        {"label": "llama.cpp", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp/README.md"},
+        {"label": "llama.cpp multiruntime", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp-multiruntime/README.md"},
+        {"label": "comfyui", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/comfyui/README.md"},
+        {"label": "pytorch", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/pytorch/README.md"},
+        {"label": "rocm", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/rocm/README.md"},
+        {"label": "strata", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/strata/README.md"},
+        {"label": "project-maya", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/project-maya/README.md"}
+      ]
     },
     {
       "id": "mxxm-t-mx-llama.cpp",
