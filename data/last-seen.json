@@ -47,7 +47,21 @@
   "count": 0,
   "pushed_at": "2026-11-06",
   "version": "20261031203345",
-  "version_url": "https://github.com/mixa3607/ML-gfx906/releases/tag/20261031203345"
+  "version_url": "https://github.com/mixa3607/ML-gfx906/releases/tag/20261031203345",
+  "blocks": {
+   "vllm": {
+    "sha": "10d3897f2b1d723c7b50a2bb93e401e67df2e9a7",
+    "date": "2026-10-17"
+   },
+   "llamacpp": {
+    "sha": "c163a5d9fc9cde907cf1de94df630f8ddf26f5af",
+    "date": "2026-10-19"
+   },
+   "strata": {
+    "sha": "9579d9bf12ac8c9d1cd69f9f30b9587f1398187d",
+    "date": "2026-10-27"
+   }
+  }
  },
  "_unreachable": [],
  "_tracked_count": 12,
