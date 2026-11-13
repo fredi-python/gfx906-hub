@@ -17,6 +17,7 @@ tracked forks, and the standing setup notes.
 | [KIntegrated/vllm-gfx906-mobydick](https://github.com/KIntegrated/vllm-gfx906-mobydick) | 2026-10-26 | `3857591d` | — |
 | [0c33/mi50-vllm-lab](https://github.com/0c33/mi50-vllm-lab) | 2026-10-26 | `eb3b1728` | — |
 | [ai-infos/vllm-gfx906-mobydick](https://github.com/ai-infos/vllm-gfx906-mobydick) | 2026-10-08 | `e7b96a5e` | — |
+| [joe2gaan/localaiservers](https://github.com/joe2gaan/localaiservers) | 2026-07-01 | `3502012d` | — |
 | [cassettesgoboom/gfx906-fa-vllm](https://github.com/cassettesgoboom/gfx906-fa-vllm) | 2026-04-22 | `e0eb52a3` | — |
 
 ### llamacpp
@@ -24,12 +25,6 @@ tracked forks, and the standing setup notes.
 | repo | updated | head | drift |
 |---|---|---|---|
 | [mxxm-t/mx-llama.cpp](https://github.com/mxxm-t/mx-llama.cpp) | 2026-11-06 | `cdc81dae` | — |
-
-### other
-
-| repo | updated | head | drift |
-|---|---|---|---|
-| [joe2gaan/localaiservers](https://github.com/joe2gaan/localaiservers) | 2026-07-01 | `3502012d` | — |
 
 <!-- HUB-STATUS:END -->
 
@@ -48,5 +43,5 @@ https://www.reddit.com/r/LocalAIServers/comments/1ukhr24/
 [CHANGELOG.md](CHANGELOG.md) — every nightly drift, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
-_Hub status last refreshed: 2026-11-13 01:46 UTC — 8 tracked, 0 unreachable._
+_Hub status last refreshed: 2026-11-13 02:18 UTC — 8 tracked, 0 unreachable._
 <!-- HUB-FOOTER:END -->

@@ -3,7 +3,7 @@
 > Regenerated nightly by `gfx906-hub-check.py` (the README blocks are the digest of this file).
 > Hand edits will be overwritten.
 
-_Updated 2026-11-13 01:46 UTC._
+_Updated 2026-11-13 02:18 UTC._
 
 | repo | category | role | ref | head | updated | compare |
 |---|---|---|---|---|---|---|
@@ -14,4 +14,4 @@ _Updated 2026-11-13 01:46 UTC._
 | ttdxq/gfx906-vllm | vllm | open .cu gfx906 vLLM fork (GDN decode stack) | `HEAD` | `3eeb931d` | 2026-11-08 | - |
 | mixa3607/ML-gfx906 | vllm | gfx906 ML base (upstream of the cassettesgoboom FA work) | `HEAD` | `4c4fb1d2` | 2026-11-06 | - |
 | mxxm-t/mx-llama.cpp | llamacpp | llama.cpp fork (mx build) | `HEAD` | `cdc81dae` | 2026-11-06 | - |
-| joe2gaan/localaiservers | other | gfx906 compute site: deploy scripts, bench reports, closed .so overlays (vNext) | `HEAD` | `3502012d` | 2026-07-01 | - |
+| joe2gaan/localaiservers | vllm | vNext vLLM fork (joe2gaan) — closed .so overlay, gfx906 deploy scripts, bench reports | `HEAD` | `3502012d` | 2026-07-01 | - |
