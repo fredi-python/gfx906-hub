@@ -7,9 +7,9 @@
   "pushed_at": "2026-04-22"
  },
  "curvedinf-int8-vllm": {
-  "sha": "971ed9281347edb697313b07cc16fd13e670986c",
-  "prev": "03705db9fcefc9facd49929c005c0a4e5734c638",
-  "date": "2026-11-12",
+  "sha": "a8056872906c787fe090740fae28fbcfb4e40259",
+  "prev": "971ed9281347edb697313b07cc16fd13e670986c",
+  "date": "2026-11-13",
   "count": 1,
   "pushed_at": "2026-11-12"
  },
@@ -42,11 +42,11 @@
   "pushed_at": "2026-10-26"
  },
  "ROCm-aiter": {
-  "sha": "27f774a92f02467fa99f707139d26abf81e8f37a",
-  "prev": "04df8dd468d2563e035db254e94d6ad1781e311d",
-  "date": "2026-11-12",
-  "count": 1,
-  "pushed_at": "2026-11-12"
+  "sha": "9e34d2ffbed8f64d583e4ac97bacfa71c3ab2f04",
+  "prev": "27f774a92f02467fa99f707139d26abf81e8f37a",
+  "date": "2026-11-13",
+  "count": 4,
+  "pushed_at": "2026-11-13"
  },
  "joe2gaan-localaiservers": {
   "sha": "3502012dd7fa9ddf190d2208bb3d4914116f37c5",
@@ -77,11 +77,11 @@
   "pushed_at": "2026-11-06"
  },
  "vllm-project-vllm": {
-  "sha": "c74cab9b33659e92de9ca9c35eb949c78ebbe64c",
-  "prev": "df5d80339b5fbca645e991444970b75fa330cd35",
-  "date": "2026-11-12",
-  "count": 2,
-  "pushed_at": "2026-11-12"
+  "sha": "c07d58dc82d75f7d1a947b3264b460384ec3e18d",
+  "prev": "c74cab9b33659e92de9ca9c35eb949c78ebbe64c",
+  "date": "2026-11-13",
+  "count": 18,
+  "pushed_at": "2026-11-13"
  },
  "_unreachable": [],
  "_tracked_count": 14,
