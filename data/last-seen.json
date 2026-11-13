@@ -6,27 +6,6 @@
   "count": 0,
   "pushed_at": "2026-04-22"
  },
- "curvedinf-int8-vllm": {
-  "sha": "a8056872906c787fe090740fae28fbcfb4e40259",
-  "prev": "971ed9281347edb697313b07cc16fd13e670986c",
-  "date": "2026-11-13",
-  "count": 1,
-  "pushed_at": "2026-11-12"
- },
- "curvedinf-int8-aiter": {
-  "sha": "b5efe248dfc62993ff93bfafed3f6946cac7c653",
-  "prev": "cd53c11c6d399cd79aee9500536dc5f8206f6ea3",
-  "date": "2026-11-12",
-  "count": 1,
-  "pushed_at": "2026-11-12"
- },
- "Luce-Org-lucebox": {
-  "sha": "cbc6d7c27108e984599e22670564aae16e0e7eb4",
-  "prev": "a08825666baabb4fe5af9d75109552a6b25b1848",
-  "date": "2026-11-12",
-  "count": 6,
-  "pushed_at": "2026-11-12"
- },
  "KIntegrated-vllm-gfx906-mobydick": {
   "sha": "3857591d7c0956fd694c5b63b1e4557531d693b1",
   "prev": null,
@@ -40,13 +19,6 @@
   "date": "2026-11-12",
   "count": 0,
   "pushed_at": "2026-10-26"
- },
- "ROCm-aiter": {
-  "sha": "9e34d2ffbed8f64d583e4ac97bacfa71c3ab2f04",
-  "prev": "27f774a92f02467fa99f707139d26abf81e8f37a",
-  "date": "2026-11-13",
-  "count": 4,
-  "pushed_at": "2026-11-13"
  },
  "joe2gaan-localaiservers": {
   "sha": "3502012dd7fa9ddf190d2208bb3d4914116f37c5",
@@ -62,13 +34,6 @@
   "count": 0,
   "pushed_at": "2026-11-08"
  },
- "Lowkey-Loki-SN-noflash-attention": {
-  "sha": "8ffe5793416cf493676a11491aaeed42f5a4bed6",
-  "prev": null,
-  "date": "2026-11-12",
-  "count": 0,
-  "pushed_at": "2026-03-28"
- },
  "mixa3607-ML-gfx906": {
   "sha": "4c4fb1d2644bf79bab81c90076be9fc4a794e81f",
   "prev": null,
@@ -76,15 +41,8 @@
   "count": 0,
   "pushed_at": "2026-11-06"
  },
- "vllm-project-vllm": {
-  "sha": "c07d58dc82d75f7d1a947b3264b460384ec3e18d",
-  "prev": "c74cab9b33659e92de9ca9c35eb949c78ebbe64c",
-  "date": "2026-11-13",
-  "count": 18,
-  "pushed_at": "2026-11-13"
- },
  "_unreachable": [],
- "_tracked_count": 14,
+ "_tracked_count": 8,
  "ai-infos-vllm-gfx906-mobydick": {
   "sha": "e7b96a5ee3799a6f9286834bbc911375a75db64b",
   "prev": null,
