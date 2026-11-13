@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-12",
-  "note": "Tracked-repo list for the MI50/gfx906 hub — MI50-specific forks ONLY (Brad 2026-11-12: all 'drop on request' upstream refs — vllm-project, ROCm/aiter — and the strata/attention-experiment repos removed; no mainline, no non-fork). Edit here (this file is the only list the nightly check reads). status: active = tracked for changes. category: one of 'categories' below (block order on the page); the 'updated' column is the repo's real last push (GitHub API), newest first within a block. The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
+  "note": "Tracked-repo list for the MI50/gfx906 hub — MI50-specific forks ONLY (Brad 2026-11-12: all 'drop on request' upstream refs — vllm-project, ROCm/aiter — and the strata/attention-experiment repos removed; no mainline, no non-fork). Edit here (this file is the only list the nightly check reads). status: active = tracked for changes. category: one of 'categories' below (block order on the page); the 'updated' column is the repo's real last push (GitHub API), newest first within a block. A repo with a `categories` list gets a row in each listed block; `block_links` maps block → the row's link (monorepos like mixa3607/ML-gfx906 use it so each block's row points at that project's subproject). The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
   "categories": ["vllm", "llamacpp", "strata"],
   "repos": [
     {
@@ -59,14 +59,15 @@
       "name": "ML-gfx906",
       "remote": "https://github.com/mixa3607/ML-gfx906",
       "ref": "HEAD",
-      "role": "gfx906 ML base (upstream of the cassettesgoboom FA work) — single monorepo, per-project pages below",
+      "role": "gfx906 ML base (upstream of the cassettesgoboom FA work) — single monorepo; row appears under each tracked project, linking to that project's subproject",
       "status": "active",
       "category": "vllm",
-      "links": [
-        {"label": "vllm", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/vllm-v2/README.md"},
-        {"label": "llama.cpp", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp/README.md"},
-        {"label": "strata", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/strata/README.md"}
-      ]
+      "categories": ["vllm", "llamacpp", "strata"],
+      "block_links": {
+        "vllm": "https://github.com/mixa3607/ML-gfx906/blob/master/vllm-v2/README.md",
+        "llamacpp": "https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp/README.md",
+        "strata": "https://github.com/mixa3607/ML-gfx906/blob/master/strata/README.md"
+      }
     },
     {
       "id": "mxxm-t-mx-llama.cpp",
