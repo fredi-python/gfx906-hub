@@ -50,7 +50,7 @@
   "version_url": "https://github.com/mixa3607/ML-gfx906/releases/tag/20261031203345"
  },
  "_unreachable": [],
- "_tracked_count": 13,
+ "_tracked_count": 12,
  "ai-infos-vllm-gfx906-mobydick": {
   "sha": "e7b96a5ee3799a6f9286834bbc911375a75db64b",
   "prev": null,
@@ -100,12 +100,5 @@
   "pushed_at": "2026-11-12",
   "version": "v0.2.13+0.5-gfx906",
   "version_url": "https://github.com/hboyd2003/Strata/releases/tag/v0.2.13%2B0.5-gfx906"
- },
- "DByte308-x99-p2p-fix": {
-  "sha": "881048dfa06b5c037d67a701e2342949c3388001",
-  "prev": null,
-  "date": "2026-11-13",
-  "count": null,
-  "pushed_at": "2026-11-11"
  }
 }

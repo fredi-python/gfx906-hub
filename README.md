@@ -35,12 +35,6 @@ tracked forks, and the standing setup notes.
 |---|---|---|---|---|
 | [hboyd2003/Strata](https://github.com/hboyd2003/Strata) | 2026-11-12 | `3b54d622` | [v0.2.13+0.5-gfx906](https://github.com/hboyd2003/Strata/releases/tag/v0.2.13%2B0.5-gfx906) | — |
 
-### infra
-
-| repo | updated | head | version | drift |
-|---|---|---|---|---|
-| [DByte308/x99-p2p-fix](https://github.com/DByte308/x99-p2p-fix) | 2026-11-11 | `881048df` | — | — |
-
 <!-- HUB-STATUS:END -->
 
 ## Common info
@@ -153,5 +147,5 @@ https://www.reddit.com/r/LocalAIServers/comments/1ukhr24/
 [CHANGELOG.md](CHANGELOG.md) — every nightly drift, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
-_Hub status last refreshed: 2026-11-13 03:42 UTC — 13 tracked, 0 unreachable._
+_Hub status last refreshed: 2026-11-13 06:44 UTC — 12 tracked, 0 unreachable._
 <!-- HUB-FOOTER:END -->
