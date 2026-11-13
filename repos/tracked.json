@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-12",
-  "note": "Tracked-repo list for the MI50/gfx906 hub — gfx906 forks only (Brad 2026-11-12; canonical list incoming). Edit here (this file is the only list the nightly check reads). status: active = tracked for changes, watch = interesting, reference = kept for context. category: one of 'categories' below (block order on the page); the 'updated' column is the repo's real last push (GitHub API), newest first within a block. The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
-  "categories": ["vllm", "strata", "llamacpp", "other"],
+  "note": "Tracked-repo list for the MI50/gfx906 hub — MI50-specific forks ONLY (Brad 2026-11-12: all 'drop on request' upstream refs — vllm-project, ROCm/aiter — and the strata/attention-experiment repos removed; no mainline, no non-fork). Edit here (this file is the only list the nightly check reads). status: active = tracked for changes. category: one of 'categories' below (block order on the page); the 'updated' column is the repo's real last push (GitHub API), newest first within a block. The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
+  "categories": ["vllm", "llamacpp", "other"],
   "repos": [
     {
       "id": "cassettesgoboom-gfx906-fa-vllm",
@@ -10,26 +10,6 @@
       "remote": "https://github.com/cassettesgoboom/gfx906-fa-vllm",
       "ref": "HEAD",
       "role": "gfx906 flash-attention kernels for vLLM (upstream of the gfx906_fa backend)",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
-      "id": "curvedinf-int8-vllm",
-      "owner": "curvedinf",
-      "name": "int8-vllm",
-      "remote": "https://github.com/curvedinf/int8-vllm",
-      "ref": "HEAD",
-      "role": "int8 vLLM for gfx906 (dot4 lineage)",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
-      "id": "Luce-Org-lucebox",
-      "owner": "Luce-Org",
-      "name": "lucebox",
-      "remote": "https://github.com/Luce-Org/lucebox",
-      "ref": "HEAD",
-      "role": "dflash / PFlash optimization lane (Qwen 3.8 Flash-Next)",
       "status": "active",
       "category": "vllm"
     },
@@ -74,16 +54,6 @@
       "category": "vllm"
     },
     {
-      "id": "Lowkey-Loki-SN-noflash-attention",
-      "owner": "Lowkey-Loki-SN",
-      "name": "noflash-attention",
-      "remote": "https://github.com/Lowkey-Loki-SN/noflash-attention",
-      "ref": "HEAD",
-      "role": "no-flash attention experiments for gfx906",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
       "id": "mixa3607-ML-gfx906",
       "owner": "mixa3607",
       "name": "ML-gfx906",
@@ -102,36 +72,6 @@
       "role": "llama.cpp fork (mx build)",
       "status": "active",
       "category": "llamacpp"
-    },
-    {
-      "id": "vllm-project-vllm",
-      "owner": "vllm-project",
-      "name": "vllm",
-      "remote": "https://github.com/vllm-project/vllm",
-      "ref": "HEAD",
-      "role": "mainline vLLM — gfx906 support is landing here upstream (upstream ref, not a fork — drop on request)",
-      "status": "watch",
-      "category": "vllm"
-    },
-    {
-      "id": "ROCm-aiter",
-      "owner": "ROCm",
-      "name": "aiter",
-      "remote": "https://github.com/ROCm/aiter",
-      "ref": "HEAD",
-      "role": "AMD AITER — reference for gfx906 gaps (CDNA3+ paths) (upstream ref, not a fork — drop on request)",
-      "status": "watch",
-      "category": "strata"
-    },
-    {
-      "id": "curvedinf-int8-aiter",
-      "owner": "curvedinf",
-      "name": "int8-aiter",
-      "remote": "https://github.com/curvedinf/int8-aiter",
-      "ref": "HEAD",
-      "role": "int8 AITER kernels for gfx906",
-      "status": "active",
-      "category": "strata"
     },
     {
       "id": "joe2gaan-localaiservers",

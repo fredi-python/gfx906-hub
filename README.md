@@ -1,6 +1,6 @@
 # MI50 / gfx906 Hub
 
-Community hub for LLM serving on AMD **MI50 (gfx906 / CDNA1)**: what's moving in the
+Community hub for LLM serving on AMD **MI50 (gfx906 — Vega 20)**: what's moving in the
 tracked forks, and the standing setup notes.
 
 > Status rows below are **auto-updated nightly** — edit `repos/tracked.json`, not the table.
