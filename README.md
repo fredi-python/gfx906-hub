@@ -46,10 +46,6 @@ tracked forks, and the standing setup notes.
 Tips for getting P2P working on 32GB MI50s: [P2P setup guide](https://pastebin.com/raw/g9hFc9WZ)
 — community runbook (VBIOS / BAR checks, GRUB + BIOS settings, RCCL env, verification).
 
-### MI50 "Catch Me If You Can" leaderboard
-The public single-stream decode challenge for the MI50 (r/LocalAIServers):
-https://www.reddit.com/r/LocalAIServers/comments/1ukhr24/
-
 ## Change log
 
 [CHANGELOG.md](CHANGELOG.md) — every repo move, newest first.
