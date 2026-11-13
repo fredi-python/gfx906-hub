@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-12",
   "note": "Tracked-repo list for the MI50/gfx906 hub — MI50-specific forks ONLY (Brad 2026-11-12: all 'drop on request' upstream refs — vllm-project, ROCm/aiter — and the strata/attention-experiment repos removed; no mainline, no non-fork). Edit here (this file is the only list the nightly check reads). status: active = tracked for changes. category: one of 'categories' below (block order on the page); the 'updated' column is the repo's real last push (GitHub API), newest first within a block. The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
-  "categories": ["vllm", "llamacpp"],
+  "categories": ["vllm", "llamacpp", "strata", "infra"],
   "repos": [
     {
       "id": "cassettesgoboom-gfx906-fa-vllm",
@@ -82,6 +82,56 @@
       "role": "llama.cpp fork (mx build)",
       "status": "active",
       "category": "llamacpp"
+    },
+    {
+      "id": "joochung-vllm-gfx906-mobydick",
+      "owner": "joochung",
+      "name": "vllm-gfx906-mobydick",
+      "remote": "https://github.com/joochung/vllm-gfx906-mobydick",
+      "ref": "HEAD",
+      "role": "gfx906 vLLM fork (IMJoo's mobydick line — PLE CPU-offload integration + QSA-FN branches)",
+      "status": "active",
+      "category": "vllm"
+    },
+    {
+      "id": "anng-phtk-rocm-vega-llama.cpp",
+      "owner": "anng-phtk",
+      "name": "rocm-vega-llama.cpp",
+      "remote": "https://github.com/anng-phtk/rocm-vega-llama.cpp",
+      "ref": "HEAD",
+      "role": "llama.cpp on ROCm 7.2 for Vega 64 (gfx900) + MI50 (gfx906) — mixed-GPU inference",
+      "status": "active",
+      "category": "llamacpp"
+    },
+    {
+      "id": "phantomic12-ML-gfx906",
+      "owner": "phantomic12",
+      "name": "ML-gfx906",
+      "remote": "https://github.com/phantomic12/ML-gfx906",
+      "ref": "HEAD",
+      "role": "gfx906 ML builds monorepo (fork of mixa3607/ML-gfx906) — GitHub-hosted apt repo POC (dormant)",
+      "status": "active",
+      "category": "vllm"
+    },
+    {
+      "id": "hboyd2003-Strata",
+      "owner": "hboyd2003",
+      "name": "Strata",
+      "remote": "https://github.com/hboyd2003/Strata",
+      "ref": "HEAD",
+      "role": "Strata gfx906 build — rocBLas autotune at startup, STRATA_PROMPT_ATTN_GFX906 (v0.2.12+0.4-gfx906)",
+      "status": "active",
+      "category": "strata"
+    },
+    {
+      "id": "DByte308-x99-p2p-fix",
+      "owner": "DByte308",
+      "name": "x99-p2p-fix",
+      "remote": "https://github.com/DByte308/x99-p2p-fix",
+      "ref": "HEAD",
+      "role": "dual MI50 P2P on Intel X99 — three-gate story, BARs-down fix (P2P setup reference)",
+      "status": "active",
+      "category": "infra"
     },
     {
       "id": "joe2gaan-localaiservers",
