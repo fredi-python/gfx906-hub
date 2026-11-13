@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-12",
   "note": "Tracked-repo list for the MI50/gfx906 hub — MI50-specific forks ONLY (Brad 2026-11-12: all 'drop on request' upstream refs — vllm-project, ROCm/aiter — and the strata/attention-experiment repos removed; no mainline, no non-fork). Edit here (this file is the only list the nightly check reads). status: active = tracked for changes. category: one of 'categories' below (block order on the page); the 'updated' column is the repo's real last push (GitHub API), newest first within a block. The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
-  "categories": ["vllm", "llamacpp", "strata", "infra"],
+  "categories": ["vllm", "llamacpp", "strata"],
   "repos": [
     {
       "id": "cassettesgoboom-gfx906-fa-vllm",
@@ -122,16 +122,6 @@
       "role": "Strata gfx906 build — rocBLas autotune at startup, STRATA_PROMPT_ATTN_GFX906 (v0.2.12+0.4-gfx906)",
       "status": "active",
       "category": "strata"
-    },
-    {
-      "id": "DByte308-x99-p2p-fix",
-      "owner": "DByte308",
-      "name": "x99-p2p-fix",
-      "remote": "https://github.com/DByte308/x99-p2p-fix",
-      "ref": "HEAD",
-      "role": "dual MI50 P2P on Intel X99 — three-gate story, BARs-down fix (P2P setup reference)",
-      "status": "active",
-      "category": "infra"
     },
     {
       "id": "joe2gaan-localaiservers",
