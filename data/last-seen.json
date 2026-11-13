@@ -11,7 +11,9 @@
   "prev": null,
   "date": "2026-11-12",
   "count": 0,
-  "pushed_at": "2026-10-26"
+  "pushed_at": "2026-10-26",
+  "version": "gfx906/v0.31.0-final",
+  "version_url": null
  },
  "0c33-mi50-vllm-lab": {
   "sha": "eb3b1728ec94d95e06f5014a80fda736e41a4f95",
@@ -25,21 +27,27 @@
   "prev": null,
   "date": "2026-11-12",
   "count": 0,
-  "pushed_at": "2026-07-01"
+  "pushed_at": "2026-07-01",
+  "version": "vnext-gfx906-rocm72-gguf-hf-repro",
+  "version_url": "https://github.com/joe2gaan/localaiservers/releases/tag/vnext-gfx906-rocm72-gguf-hf-repro"
  },
  "ttdxq-gfx906-vllm": {
   "sha": "3eeb931d9c77badb102ae767c3e6dd02fa439371",
   "prev": null,
   "date": "2026-11-12",
   "count": 0,
-  "pushed_at": "2026-11-08"
+  "pushed_at": "2026-11-08",
+  "version": "rccl-gfx906-2.27.7-rocm7.2.4",
+  "version_url": "https://github.com/ttdxq/gfx906-vllm/releases/tag/rccl-gfx906-2.27.7-rocm7.2.4"
  },
  "mixa3607-ML-gfx906": {
   "sha": "4c4fb1d2644bf79bab81c90076be9fc4a794e81f",
   "prev": null,
   "date": "2026-11-12",
   "count": 0,
-  "pushed_at": "2026-11-06"
+  "pushed_at": "2026-11-06",
+  "version": "20261031203345",
+  "version_url": "https://github.com/mixa3607/ML-gfx906/releases/tag/20261031203345"
  },
  "_unreachable": [],
  "_tracked_count": 8,
@@ -55,6 +63,8 @@
   "prev": null,
   "date": "2026-11-12",
   "count": null,
-  "pushed_at": "2026-11-06"
+  "pushed_at": "2026-11-06",
+  "version": "b11757",
+  "version_url": null
  }
 }
