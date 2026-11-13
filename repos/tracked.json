@@ -65,12 +65,7 @@
       "links": [
         {"label": "vllm", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/vllm-v2/README.md"},
         {"label": "llama.cpp", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp/README.md"},
-        {"label": "llama.cpp multiruntime", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp-multiruntime/README.md"},
-        {"label": "comfyui", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/comfyui/README.md"},
-        {"label": "pytorch", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/pytorch/README.md"},
-        {"label": "rocm", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/rocm/README.md"},
-        {"label": "strata", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/strata/README.md"},
-        {"label": "project-maya", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/project-maya/README.md"}
+        {"label": "strata", "url": "https://github.com/mixa3607/ML-gfx906/blob/master/strata/README.md"}
       ]
     },
     {
