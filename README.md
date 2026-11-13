@@ -41,11 +41,10 @@ tracked forks, and the standing setup notes.
 
 ## Common info
 
-### PCIe P2P on MI50
+### P2P Guide
 
-[P2P setup guide](https://pastebin.com/raw/g9hFc9WZ) — community runbook for getting P2P
-working across 32GB MI50s (VBIOS / BAR checks, GRUB + BIOS settings, RCCL env,
-verification).
+Tips for getting P2P working on 32GB MI50s: [P2P setup guide](https://pastebin.com/raw/g9hFc9WZ)
+— community runbook (VBIOS / BAR checks, GRUB + BIOS settings, RCCL env, verification).
 
 ### MI50 "Catch Me If You Can" leaderboard
 The public single-stream decode challenge for the MI50 (r/LocalAIServers):
