@@ -52,7 +52,7 @@ https://www.reddit.com/r/LocalAIServers/comments/1ukhr24/
 
 ## Change log
 
-[CHANGELOG.md](CHANGELOG.md) — every nightly drift, newest first.
+[CHANGELOG.md](CHANGELOG.md) — every repo move, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
 _Hub status last refreshed: 2026-11-13 16:25 UTC — 12 tracked, 0 unreachable._
