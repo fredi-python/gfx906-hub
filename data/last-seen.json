@@ -63,7 +63,7 @@
   }
  },
  "_unreachable": [],
- "_tracked_count": 12,
+ "_tracked_count": 14,
  "ai-infos-vllm-gfx906-mobydick": {
   "sha": "e7b96a5ee3799a6f9286834bbc911375a75db64b",
   "prev": null,
@@ -113,5 +113,21 @@
   "pushed_at": "2026-11-12",
   "version": "v0.2.13+0.5-gfx906",
   "version_url": "https://github.com/hboyd2003/Strata/releases/tag/v0.2.13%2B0.5-gfx906"
+ },
+ "Llaminar-llaminar": {
+  "sha": "454741b1b2228bc6874e46ade75bbf523a8385d5",
+  "prev": null,
+  "date": "2026-11-16",
+  "pushed_at": "2026-11-16",
+  "version": "2026-09-27.1",
+  "version_url": "https://github.com/Llaminar/llaminar/releases/tag/2026-09-27.1"
+ },
+ "sixvolts-llamacpp-gfx906-furnace": {
+  "sha": "d2b951322ec1a1f168d1f1006bc380704ee63c1b",
+  "prev": null,
+  "date": "2026-11-16",
+  "pushed_at": "2026-11-10",
+  "version": "gfx906-perf-b9607-5013b9f",
+  "version_url": null
  }
 }

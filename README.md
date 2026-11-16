@@ -26,6 +26,7 @@ tracked forks, and the standing setup notes.
 
 | repo | focus | updated | head | version |
 |---|---|---|---|---|
+| [sixvolts/llamacpp-gfx906-furnace](https://github.com/sixvolts/llamacpp-gfx906-furnace) | retuned llama.cpp for MI50 — GCN weight repack + DPP warp reductions; 177B MoE across 4× MI50 (Qwen3.8-Flash-Next) | 2026-11-10 | `d2b95132` | gfx906-perf-b9607-5013b9f |
 | [mxxm-t/mx-llama.cpp](https://github.com/mxxm-t/mx-llama.cpp) | llama.cpp mx builds — Qwen3 / 3.5 GGUF quants (Q8 to Q4) on 16GB | 2026-11-06 | `cdc81dae` | b11757 |
 | [mixa3607/ML-gfx906](https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp/README.md) | the base monorepo — vllm, llama.cpp, strata (+ more) for gfx906 | 2026-10-19 | `c163a5d9` | [20261115214657](https://github.com/mixa3607/ML-gfx906/releases/tag/20261115214657) |
 | [anng-phtk/rocm-vega-llama.cpp](https://github.com/anng-phtk/rocm-vega-llama.cpp) | mixed-GPU llama.cpp (Vega 64 + MI50) on ROCm 7.2 | 2026-08-25 | `602a7b55` | — |
@@ -36,6 +37,12 @@ tracked forks, and the standing setup notes.
 |---|---|---|---|---|
 | [hboyd2003/Strata](https://github.com/hboyd2003/Strata) | Strata tuned for gfx906 — rocBLAS autotune, prompt-attention env (~+7% prefill) | 2026-11-12 | `3b54d622` | [v0.2.13+0.5-gfx906](https://github.com/hboyd2003/Strata/releases/tag/v0.2.13%2B0.5-gfx906) |
 | [mixa3607/ML-gfx906](https://github.com/mixa3607/ML-gfx906/blob/master/strata/README.md) | the base monorepo — vllm, llama.cpp, strata (+ more) for gfx906 | 2026-10-27 | `9579d9bf` | [20261115214657](https://github.com/mixa3607/ML-gfx906/releases/tag/20261115214657) |
+
+### llaminar
+
+| repo | focus | updated | head | version |
+|---|---|---|---|---|
+| [Llaminar/llaminar](https://github.com/Llaminar/llaminar) | standalone C++ GGUF engine with first-class MI50 (gfx906) support — Qwen 3/3.5/3.6/3.8 (dense + MoE) | 2026-11-16 | `454741b1` | [2026-09-27.1](https://github.com/Llaminar/llaminar/releases/tag/2026-09-27.1) |
 
 <!-- HUB-STATUS:END -->
 
@@ -51,5 +58,5 @@ Tips for getting P2P working on 32GB MI50s: [P2P setup guide](https://pastebin.c
 [CHANGELOG.md](CHANGELOG.md) — every repo move, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
-_Hub status last refreshed: 2026-11-15 21:56 UTC — 12 tracked, 0 unreachable._
+_Hub status last refreshed: 2026-11-16 15:48 UTC — 14 tracked, 0 unreachable._
 <!-- HUB-FOOTER:END -->
