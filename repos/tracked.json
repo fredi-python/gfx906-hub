@@ -168,7 +168,7 @@
   },
   {
    "id": "sixvolts-llamacpp-gfx906-furnace",
-   "focus": "retuned llama.cpp for MI50 \u2014 GCN weight repack + DPP warp reductions; 177B MoE across 4\u00d7 MI50 (Qwen3.8-Flash-Next)",
+   "focus": "retuned llama.cpp \u2014 177B Qwen3.8-Flash-Next MoE (UD-Q4_K_XL) layer-split across 4\u00d7 MI50, GCN weight repack + DPP warp reductions",
    "owner": "sixvolts",
    "name": "llamacpp-gfx906-furnace",
    "remote": "https://github.com/sixvolts/llamacpp-gfx906-furnace",
