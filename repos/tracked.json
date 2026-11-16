@@ -1,150 +1,181 @@
 {
-  "updated": "2026-11-12",
-  "note": "Tracked-repo list for the MI50/gfx906 hub — MI50-specific forks ONLY (Brad 2026-11-12: all 'drop on request' upstream refs — vllm-project, ROCm/aiter — and the strata/attention-experiment repos removed; no mainline, no non-fork). Edit here (this file is the only list the nightly check reads). status: active = tracked for changes. category: one of 'categories' below (block order on the page); the 'updated' column is the repo's real last push (GitHub API), newest first within a block. focus: the at-a-glance 'right fork for me' line shown on the page (Brad-approved 2026-11-13). A repo with a `categories` list gets a row in each listed block; `block_links` maps block → the row's link (monorepos like mixa3607/ML-gfx906 use it so each block's row points at that project's subproject). `block_paths` maps block → subproject dir (monorepos get per-project 'updated'/'head' on the page). The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
-  "categories": ["vllm", "llamacpp", "strata"],
-  "repos": [
-    {
-      "id": "cassettesgoboom-gfx906-fa-vllm",
-      "focus": "flash-attention kernels for gfx906 (feeds the gfx906_fa vLLM backend)",
-      "owner": "cassettesgoboom",
-      "name": "gfx906-fa-vllm",
-      "remote": "https://github.com/cassettesgoboom/gfx906-fa-vllm",
-      "ref": "HEAD",
-      "role": "gfx906 flash-attention kernels for vLLM (upstream of the gfx906_fa backend)",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
-      "id": "KIntegrated-vllm-gfx906-mobydick",
-      "focus": "newest vLLM base (v0.31 line) — current release gfx906/v0.31.0-final",
-      "owner": "KIntegrated",
-      "name": "vllm-gfx906-mobydick",
-      "remote": "https://github.com/KIntegrated/vllm-gfx906-mobydick",
-      "ref": "HEAD",
-      "role": "gfx906 vLLM fork (mobydick)",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
-      "id": "ai-infos-vllm-gfx906-mobydick",
-      "focus": "multi-GPU / TP4 serving (the 4×MI50 P2P guide runs on this image)",
-      "owner": "ai-infos",
-      "name": "vllm-gfx906-mobydick",
-      "remote": "https://github.com/ai-infos/vllm-gfx906-mobydick",
-      "ref": "HEAD",
-      "role": "gfx906 vLLM fork (mobydick — ai-infos branch; Radeon VII / MI50 / MI60)",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
-      "id": "0c33-mi50-vllm-lab",
-      "focus": "27B on 2× MI50 — gfx906_skinny 4-bit kernels (lab / experiments)",
-      "owner": "0c33",
-      "name": "mi50-vllm-lab",
-      "remote": "https://github.com/0c33/mi50-vllm-lab",
-      "ref": "HEAD",
-      "role": "MI50 vLLM lab — 27B on 2x MI50, gfx906_skinny 4-bit kernels",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
-      "id": "ttdxq-gfx906-vllm",
-      "focus": "open kernel-source fork (GDN decode stack) + RCCL gfx906 builds",
-      "owner": "ttdxq",
-      "name": "gfx906-vllm",
-      "remote": "https://github.com/ttdxq/gfx906-vllm",
-      "ref": "HEAD",
-      "role": "open .cu gfx906 vLLM fork (GDN decode stack)",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
-      "id": "mixa3607-ML-gfx906",
-      "focus": "the base monorepo — vllm, llama.cpp, strata (+ more) for gfx906",
-      "owner": "mixa3607",
-      "name": "ML-gfx906",
-      "remote": "https://github.com/mixa3607/ML-gfx906",
-      "ref": "HEAD",
-      "role": "gfx906 ML base (upstream of the cassettesgoboom FA work) — single monorepo; row appears under each tracked project, linking to that project's subproject",
-      "status": "active",
-      "category": "vllm",
-      "categories": ["vllm", "llamacpp", "strata"],
-      "block_links": {
-        "vllm": "https://github.com/mixa3607/ML-gfx906/blob/master/vllm-v2/README.md",
-        "llamacpp": "https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp/README.md",
-        "strata": "https://github.com/mixa3607/ML-gfx906/blob/master/strata/README.md"
-      },
-      "block_paths": {
-        "vllm": "vllm-v2",
-        "llamacpp": "llama.cpp",
-        "strata": "strata"
-      }
-    },
-    {
-      "id": "mxxm-t-mx-llama.cpp",
-      "focus": "llama.cpp mx builds — Qwen3 / 3.5 GGUF quants (Q8 to Q4) on 16GB",
-      "owner": "mxxm-t",
-      "name": "mx-llama.cpp",
-      "remote": "https://github.com/mxxm-t/mx-llama.cpp",
-      "ref": "HEAD",
-      "role": "llama.cpp fork (mx build)",
-      "status": "active",
-      "category": "llamacpp"
-    },
-    {
-      "id": "joochung-vllm-gfx906-mobydick",
-      "focus": "PLE CPU-offload — big MoE models on 16GB cards (v0.30 line)",
-      "owner": "joochung",
-      "name": "vllm-gfx906-mobydick",
-      "remote": "https://github.com/joochung/vllm-gfx906-mobydick",
-      "ref": "HEAD",
-      "role": "gfx906 vLLM fork (IMJoo's mobydick line — PLE CPU-offload integration + QSA-FN branches)",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
-      "id": "anng-phtk-rocm-vega-llama.cpp",
-      "focus": "mixed-GPU llama.cpp (Vega 64 + MI50) on ROCm 7.2",
-      "owner": "anng-phtk",
-      "name": "rocm-vega-llama.cpp",
-      "remote": "https://github.com/anng-phtk/rocm-vega-llama.cpp",
-      "ref": "HEAD",
-      "role": "llama.cpp on ROCm 7.2 for Vega 64 (gfx900) + MI50 (gfx906) — mixed-GPU inference",
-      "status": "active",
-      "category": "llamacpp"
-    },
-    {
-      "id": "phantomic12-ML-gfx906",
-      "focus": "mixa monorepo fork (dormant) — GitHub-hosted apt-repo build POC",
-      "owner": "phantomic12",
-      "name": "ML-gfx906",
-      "remote": "https://github.com/phantomic12/ML-gfx906",
-      "ref": "HEAD",
-      "role": "gfx906 ML builds monorepo (fork of mixa3607/ML-gfx906) — GitHub-hosted apt repo POC (dormant)",
-      "status": "active",
-      "category": "vllm"
-    },
-    {
-      "id": "hboyd2003-Strata",
-      "focus": "Strata tuned for gfx906 — rocBLAS autotune, prompt-attention env (~+7% prefill)",
-      "owner": "hboyd2003",
-      "name": "Strata",
-      "remote": "https://github.com/hboyd2003/Strata",
-      "ref": "HEAD",
-      "role": "Strata gfx906 build — rocBLas autotune at startup, STRATA_PROMPT_ATTN_GFX906 (v0.2.12+0.4-gfx906)",
-      "status": "active",
-      "category": "strata"
-    },
-    {
-      "id": "joe2gaan-localaiservers",
-      "focus": "vNext vLLM — closed .so runtime overlay, dense + MoE profiles, bench reports",
-      "owner": "joe2gaan",
-      "name": "localaiservers",
-      "remote": "https://github.com/joe2gaan/localaiservers",
-      "ref": "HEAD",
-      "role": "vNext vLLM fork (joe2gaan) — closed .so overlay, gfx906 deploy scripts, bench reports",
-      "status": "active",
-      "category": "vllm"
-    }
-  ]
+ "updated": "2026-11-12",
+ "note": "Tracked-repo list for the MI50/gfx906 hub \u2014 MI50-specific forks ONLY (Brad 2026-11-12: all 'drop on request' upstream refs \u2014 vllm-project, ROCm/aiter \u2014 and the strata/attention-experiment repos removed; no mainline, no non-fork). Edit here (this file is the only list the nightly check reads). status: active = tracked for changes. category: one of 'categories' below (block order on the page); the 'updated' column is the repo's real last push (GitHub API), newest first within a block. focus: the at-a-glance 'right fork for me' line shown on the page (Brad-approved 2026-11-13). A repo with a `categories` list gets a row in each listed block; `block_links` maps block \u2192 the row's link (monorepos like mixa3607/ML-gfx906 use it so each block's row points at that project's subproject). `block_paths` maps block \u2192 subproject dir (monorepos get per-project 'updated'/'head' on the page). The nightly job never modifies this file. ref: HEAD or a branch/tag name.",
+ "categories": [
+  "vllm",
+  "llamacpp",
+  "strata",
+  "llaminar"
+ ],
+ "repos": [
+  {
+   "id": "cassettesgoboom-gfx906-fa-vllm",
+   "focus": "flash-attention kernels for gfx906 (feeds the gfx906_fa vLLM backend)",
+   "owner": "cassettesgoboom",
+   "name": "gfx906-fa-vllm",
+   "remote": "https://github.com/cassettesgoboom/gfx906-fa-vllm",
+   "ref": "HEAD",
+   "role": "gfx906 flash-attention kernels for vLLM (upstream of the gfx906_fa backend)",
+   "status": "active",
+   "category": "vllm"
+  },
+  {
+   "id": "KIntegrated-vllm-gfx906-mobydick",
+   "focus": "newest vLLM base (v0.31 line) \u2014 current release gfx906/v0.31.0-final",
+   "owner": "KIntegrated",
+   "name": "vllm-gfx906-mobydick",
+   "remote": "https://github.com/KIntegrated/vllm-gfx906-mobydick",
+   "ref": "HEAD",
+   "role": "gfx906 vLLM fork (mobydick)",
+   "status": "active",
+   "category": "vllm"
+  },
+  {
+   "id": "ai-infos-vllm-gfx906-mobydick",
+   "focus": "multi-GPU / TP4 serving (the 4\u00d7MI50 P2P guide runs on this image)",
+   "owner": "ai-infos",
+   "name": "vllm-gfx906-mobydick",
+   "remote": "https://github.com/ai-infos/vllm-gfx906-mobydick",
+   "ref": "HEAD",
+   "role": "gfx906 vLLM fork (mobydick \u2014 ai-infos branch; Radeon VII / MI50 / MI60)",
+   "status": "active",
+   "category": "vllm"
+  },
+  {
+   "id": "0c33-mi50-vllm-lab",
+   "focus": "27B on 2\u00d7 MI50 \u2014 gfx906_skinny 4-bit kernels (lab / experiments)",
+   "owner": "0c33",
+   "name": "mi50-vllm-lab",
+   "remote": "https://github.com/0c33/mi50-vllm-lab",
+   "ref": "HEAD",
+   "role": "MI50 vLLM lab \u2014 27B on 2x MI50, gfx906_skinny 4-bit kernels",
+   "status": "active",
+   "category": "vllm"
+  },
+  {
+   "id": "ttdxq-gfx906-vllm",
+   "focus": "open kernel-source fork (GDN decode stack) + RCCL gfx906 builds",
+   "owner": "ttdxq",
+   "name": "gfx906-vllm",
+   "remote": "https://github.com/ttdxq/gfx906-vllm",
+   "ref": "HEAD",
+   "role": "open .cu gfx906 vLLM fork (GDN decode stack)",
+   "status": "active",
+   "category": "vllm"
+  },
+  {
+   "id": "mixa3607-ML-gfx906",
+   "focus": "the base monorepo \u2014 vllm, llama.cpp, strata (+ more) for gfx906",
+   "owner": "mixa3607",
+   "name": "ML-gfx906",
+   "remote": "https://github.com/mixa3607/ML-gfx906",
+   "ref": "HEAD",
+   "role": "gfx906 ML base (upstream of the cassettesgoboom FA work) \u2014 single monorepo; row appears under each tracked project, linking to that project's subproject",
+   "status": "active",
+   "category": "vllm",
+   "categories": [
+    "vllm",
+    "llamacpp",
+    "strata"
+   ],
+   "block_links": {
+    "vllm": "https://github.com/mixa3607/ML-gfx906/blob/master/vllm-v2/README.md",
+    "llamacpp": "https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp/README.md",
+    "strata": "https://github.com/mixa3607/ML-gfx906/blob/master/strata/README.md"
+   },
+   "block_paths": {
+    "vllm": "vllm-v2",
+    "llamacpp": "llama.cpp",
+    "strata": "strata"
+   }
+  },
+  {
+   "id": "mxxm-t-mx-llama.cpp",
+   "focus": "llama.cpp mx builds \u2014 Qwen3 / 3.5 GGUF quants (Q8 to Q4) on 16GB",
+   "owner": "mxxm-t",
+   "name": "mx-llama.cpp",
+   "remote": "https://github.com/mxxm-t/mx-llama.cpp",
+   "ref": "HEAD",
+   "role": "llama.cpp fork (mx build)",
+   "status": "active",
+   "category": "llamacpp"
+  },
+  {
+   "id": "joochung-vllm-gfx906-mobydick",
+   "focus": "PLE CPU-offload \u2014 big MoE models on 16GB cards (v0.30 line)",
+   "owner": "joochung",
+   "name": "vllm-gfx906-mobydick",
+   "remote": "https://github.com/joochung/vllm-gfx906-mobydick",
+   "ref": "HEAD",
+   "role": "gfx906 vLLM fork (IMJoo's mobydick line \u2014 PLE CPU-offload integration + QSA-FN branches)",
+   "status": "active",
+   "category": "vllm"
+  },
+  {
+   "id": "anng-phtk-rocm-vega-llama.cpp",
+   "focus": "mixed-GPU llama.cpp (Vega 64 + MI50) on ROCm 7.2",
+   "owner": "anng-phtk",
+   "name": "rocm-vega-llama.cpp",
+   "remote": "https://github.com/anng-phtk/rocm-vega-llama.cpp",
+   "ref": "HEAD",
+   "role": "llama.cpp on ROCm 7.2 for Vega 64 (gfx900) + MI50 (gfx906) \u2014 mixed-GPU inference",
+   "status": "active",
+   "category": "llamacpp"
+  },
+  {
+   "id": "phantomic12-ML-gfx906",
+   "focus": "mixa monorepo fork (dormant) \u2014 GitHub-hosted apt-repo build POC",
+   "owner": "phantomic12",
+   "name": "ML-gfx906",
+   "remote": "https://github.com/phantomic12/ML-gfx906",
+   "ref": "HEAD",
+   "role": "gfx906 ML builds monorepo (fork of mixa3607/ML-gfx906) \u2014 GitHub-hosted apt repo POC (dormant)",
+   "status": "active",
+   "category": "vllm"
+  },
+  {
+   "id": "hboyd2003-Strata",
+   "focus": "Strata tuned for gfx906 \u2014 rocBLAS autotune, prompt-attention env (~+7% prefill)",
+   "owner": "hboyd2003",
+   "name": "Strata",
+   "remote": "https://github.com/hboyd2003/Strata",
+   "ref": "HEAD",
+   "role": "Strata gfx906 build \u2014 rocBLas autotune at startup, STRATA_PROMPT_ATTN_GFX906 (v0.2.12+0.4-gfx906)",
+   "status": "active",
+   "category": "strata"
+  },
+  {
+   "id": "joe2gaan-localaiservers",
+   "focus": "vNext vLLM \u2014 closed .so runtime overlay, dense + MoE profiles, bench reports",
+   "owner": "joe2gaan",
+   "name": "localaiservers",
+   "remote": "https://github.com/joe2gaan/localaiservers",
+   "ref": "HEAD",
+   "role": "vNext vLLM fork (joe2gaan) \u2014 closed .so overlay, gfx906 deploy scripts, bench reports",
+   "status": "active",
+   "category": "vllm"
+  },
+  {
+   "id": "Llaminar-llaminar",
+   "focus": "standalone C++ GGUF engine with first-class MI50 (gfx906) support \u2014 Qwen 3/3.5/3.6/3.8 (dense + MoE)",
+   "owner": "Llaminar",
+   "name": "llaminar",
+   "remote": "https://github.com/Llaminar/llaminar",
+   "ref": "HEAD",
+   "role": "Llaminar \u2014 C++ GGUF inference engine (CPU / CUDA / ROCm); explicit MI50 gfx906 support, e2e-tested recipes",
+   "status": "active",
+   "category": "llaminar"
+  },
+  {
+   "id": "sixvolts-llamacpp-gfx906-furnace",
+   "focus": "retuned llama.cpp for MI50 \u2014 GCN weight repack + DPP warp reductions; 177B MoE across 4\u00d7 MI50 (Qwen3.8-Flash-Next)",
+   "owner": "sixvolts",
+   "name": "llamacpp-gfx906-furnace",
+   "remote": "https://github.com/sixvolts/llamacpp-gfx906-furnace",
+   "ref": "HEAD",
+   "role": "llama.cpp retune for gfx906 (weight repacking, DPP/ds_swizzle reductions, 4\u00d7MI50 MoE serving) \u2014 the furnace/reinstinct line",
+   "status": "active",
+   "category": "llamacpp"
+  }
+ ]
 }
