@@ -50,8 +50,16 @@ tracked forks, and the standing setup notes.
 
 ### P2P Guide
 
-Tips for getting P2P working on 32GB MI50s: [P2P setup guide](https://pastebin.com/raw/g9hFc9WZ)
-— community runbook (VBIOS / BAR checks, GRUB + BIOS settings, RCCL env, verification).
+Tips for getting P2P working on 32GB MI50s:
+[mi50-p2p-fixes](https://github.com/DByte308/mi50-p2p-fixes) — DByte308's PCIe P2P
+write-up for the MI50: the X99 three-gate story (host-bridge whitelist, 44-bit BAR /
+DMA-mask, the corrupt-data dead end) plus a four-MI50 + 7900 XTX PEX/VT-d case study.
+
+### MI50 VBIOS reference
+
+[MI50 32GB VBIOS](https://gist.github.com/evilJazz/14a4c82a67f2c52a6bb5f9cea02f5e13)
+— evilJazz's consolidated VBIOS ROM reference: the ROM matrix (P2P support, ReBAR,
+power caps, clocks), original vs modified PCB, amdvbflash flashing, and UPP overrides.
 
 ## Change log
 
