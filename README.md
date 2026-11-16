@@ -26,7 +26,7 @@ tracked forks, and the standing setup notes.
 
 | repo | focus | updated | head | version |
 |---|---|---|---|---|
-| [sixvolts/llamacpp-gfx906-furnace](https://github.com/sixvolts/llamacpp-gfx906-furnace) | retuned llama.cpp for MI50 — GCN weight repack + DPP warp reductions; 177B MoE across 4× MI50 (Qwen3.8-Flash-Next) | 2026-11-10 | `d2b95132` | gfx906-perf-b9607-5013b9f |
+| [sixvolts/llamacpp-gfx906-furnace](https://github.com/sixvolts/llamacpp-gfx906-furnace) | retuned llama.cpp — 177B Qwen3.8-Flash-Next MoE (UD-Q4_K_XL) layer-split across 4× MI50, GCN weight repack + DPP warp reductions | 2026-11-10 | `d2b95132` | gfx906-perf-b9607-5013b9f |
 | [mxxm-t/mx-llama.cpp](https://github.com/mxxm-t/mx-llama.cpp) | llama.cpp mx builds — Qwen3 / 3.5 GGUF quants (Q8 to Q4) on 16GB | 2026-11-06 | `cdc81dae` | b11757 |
 | [mixa3607/ML-gfx906](https://github.com/mixa3607/ML-gfx906/blob/master/llama.cpp/README.md) | the base monorepo — vllm, llama.cpp, strata (+ more) for gfx906 | 2026-10-19 | `c163a5d9` | [20261115214657](https://github.com/mixa3607/ML-gfx906/releases/tag/20261115214657) |
 | [anng-phtk/rocm-vega-llama.cpp](https://github.com/anng-phtk/rocm-vega-llama.cpp) | mixed-GPU llama.cpp (Vega 64 + MI50) on ROCm 7.2 | 2026-08-25 | `602a7b55` | — |
@@ -58,5 +58,5 @@ Tips for getting P2P working on 32GB MI50s: [P2P setup guide](https://pastebin.c
 [CHANGELOG.md](CHANGELOG.md) — every repo move, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
-_Hub status last refreshed: 2026-11-16 15:48 UTC — 14 tracked, 0 unreachable._
+_Hub status last refreshed: 2026-11-16 15:59 UTC — 14 tracked, 0 unreachable._
 <!-- HUB-FOOTER:END -->
