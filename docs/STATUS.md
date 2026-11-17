@@ -3,7 +3,7 @@
 > Regenerated nightly by `gfx906-hub-check.py` (the README blocks are the digest of this file).
 > Hand edits will be overwritten.
 
-_Updated 2026-11-17 08:10 UTC._
+_Updated 2026-11-17 14:31 UTC._
 
 | repo | category | role | ref | head | updated | version | compare |
 |---|---|---|---|---|---|---|---|
@@ -21,3 +21,5 @@ _Updated 2026-11-17 08:10 UTC._
 | joe2gaan/localaiservers | vllm | vNext vLLM fork (joe2gaan) — closed .so overlay, gfx906 deploy scripts, bench reports | `HEAD` | `3502012d` | 2026-07-01 | [vnext-gfx906-rocm72-gguf-hf-repro](https://github.com/joe2gaan/localaiservers/releases/tag/vnext-gfx906-rocm72-gguf-hf-repro) | - |
 | Llaminar/llaminar | llaminar | Llaminar — C++ GGUF inference engine (CPU / CUDA / ROCm); explicit MI50 gfx906 support, e2e-tested recipes | `HEAD` | `454741b1` | 2026-11-17 | [2026-09-27.1](https://github.com/Llaminar/llaminar/releases/tag/2026-09-27.1) | - |
 | sixvolts/llamacpp-gfx906-furnace | llamacpp | llama.cpp retune for gfx906 (weight repacking, DPP/ds_swizzle reductions, 4×MI50 MoE serving) — the furnace/reinstinct line | `HEAD` | `d2b95132` | 2026-11-10 | gfx906-perf-b9607-5013b9f | - |
+| benpeterson40/castagna-veloce | llamacpp | Castagna Veloce — llama.cpp fork tuned for single-GPU MI50, scaled to 2–8 cards (gfx906 kernels, MoE-era fusions, TP over plain PCIe) | `HEAD` | `3483d462` | 2026-10-07 | main-b11108-3483d46 | - |
+| AlwaysLearning-dev/gfx906-llama-cpp | llamacpp | llama.cpp for dual MI50 tensor split (DFlash2 speculative decoding); tracked on the dev_v2 branch (newest, in testing) | `dev_v2` | `77941dd7` | 2026-11-17 | - | - |

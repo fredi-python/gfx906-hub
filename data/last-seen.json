@@ -63,7 +63,7 @@
   }
  },
  "_unreachable": [],
- "_tracked_count": 14,
+ "_tracked_count": 16,
  "ai-infos-vllm-gfx906-mobydick": {
   "sha": "e7b96a5ee3799a6f9286834bbc911375a75db64b",
   "prev": null,
@@ -129,5 +129,19 @@
   "pushed_at": "2026-11-10",
   "version": "gfx906-perf-b9607-5013b9f",
   "version_url": null
+ },
+ "benpeterson40-castagna-veloce": {
+  "sha": "3483d462715d61f21ed5877836be35a724446359",
+  "prev": null,
+  "date": "2026-11-17",
+  "pushed_at": "2026-10-07",
+  "version": "main-b11108-3483d46",
+  "version_url": null
+ },
+ "AlwaysLearning-dev-gfx906-llama-cpp": {
+  "sha": "77941dd7acad8e9932a5e7e147befe8706e73e77",
+  "prev": null,
+  "date": "2026-11-17",
+  "pushed_at": "2026-11-17"
  }
 }
