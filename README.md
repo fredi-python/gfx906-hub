@@ -50,6 +50,10 @@ tracked forks, and the standing setup notes.
 
 ## Common info
 
+### gfx906 Discord
+
+[gfx906 Discord invite](https://discord.gg/VSqu8gXq2) — the MI50 / gfx906 community.
+
 ### P2P Guide
 
 [mi50-p2p-fixes](https://github.com/DByte308/mi50-p2p-fixes) — DByte308's PCIe P2P write-up for the MI50 (X99 three-gate story + four-MI50 + 7900 XTX case study).
@@ -59,10 +63,6 @@ tracked forks, and the standing setup notes.
 [MI50 32GB VBIOS](https://gist.github.com/evilJazz/14a4c82a67f2c52a6bb5f9cea02f5e13)
 — evilJazz's consolidated VBIOS ROM reference: the ROM matrix (P2P support, ReBAR,
 power caps, clocks), original vs modified PCB, amdvbflash flashing, and UPP overrides.
-
-### gfx906 Discord
-
-[gfx906 Discord invite](https://discord.gg/VSqu8gXq2) — the MI50 / gfx906 community.
 
 ## Change log
 
