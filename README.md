@@ -61,7 +61,12 @@ DMA-mask, the corrupt-data dead end) plus a four-MI50 + 7900 XTX PEX/VT-d case s
 — evilJazz's consolidated VBIOS ROM reference: the ROM matrix (P2P support, ReBAR,
 power caps, clocks), original vs modified PCB, amdvbflash flashing, and UPP overrides.
 
+### gfx906 Discord
+
+[gfx906 Discord invite](https://discord.gg/VSqu8gXq2) — the MI50 / gfx906 community.
+
 ## Change log
+
 
 [CHANGELOG.md](CHANGELOG.md) — every repo move, newest first.
 

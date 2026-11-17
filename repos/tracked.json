@@ -176,6 +176,28 @@
    "role": "llama.cpp retune for gfx906 (weight repacking, DPP/ds_swizzle reductions, 4\u00d7MI50 MoE serving) \u2014 the furnace/reinstinct line",
    "status": "active",
    "category": "llamacpp"
+  },
+  {
+   "id": "benpeterson40-castagna-veloce",
+   "focus": "llama.cpp fork built for MI50 \u2014 2\u20138 cards over PCIe, TP + MTP/DSpark speculative decoding (DeepSeek V4 Flash, GLM-5.3-Flash, Qwen3.8)",
+   "owner": "benpeterson40",
+   "name": "castagna-veloce",
+   "remote": "https://github.com/benpeterson40/castagna-veloce",
+   "ref": "HEAD",
+   "role": "Castagna Veloce \u2014 llama.cpp fork tuned for single-GPU MI50, scaled to 2\u20138 cards (gfx906 kernels, MoE-era fusions, TP over plain PCIe)",
+   "status": "active",
+   "category": "llamacpp"
+  },
+  {
+   "id": "AlwaysLearning-dev-gfx906-llama-cpp",
+   "focus": "2\u00d7 MI50 tensor-split llama.cpp \u2014 Qwen3.8-27B Q8_0 + DFlash2 drafter; dev_v2 = Q8_0 weight repack (~434 pp tok/s)",
+   "owner": "AlwaysLearning-dev",
+   "name": "gfx906-llama-cpp",
+   "remote": "https://github.com/AlwaysLearning-dev/gfx906-llama-cpp",
+   "ref": "dev_v2",
+   "role": "llama.cpp for dual MI50 tensor split (DFlash2 speculative decoding); tracked on the dev_v2 branch (newest, in testing)",
+   "status": "active",
+   "category": "llamacpp"
   }
  ]
 }
