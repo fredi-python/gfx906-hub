@@ -52,10 +52,7 @@ tracked forks, and the standing setup notes.
 
 ### P2P Guide
 
-Tips for getting P2P working on 32GB MI50s:
-[mi50-p2p-fixes](https://github.com/DByte308/mi50-p2p-fixes) — DByte308's PCIe P2P
-write-up for the MI50: the X99 three-gate story (host-bridge whitelist, 44-bit BAR /
-DMA-mask, the corrupt-data dead end) plus a four-MI50 + 7900 XTX PEX/VT-d case study.
+[mi50-p2p-fixes](https://github.com/DByte308/mi50-p2p-fixes) — DByte308's PCIe P2P write-up for the MI50 (X99 three-gate story + four-MI50 + 7900 XTX case study).
 
 ### MI50 VBIOS reference
 
