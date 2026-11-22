@@ -41,12 +41,12 @@
   "version_url": "https://github.com/ttdxq/gfx906-vllm/releases/tag/rccl-gfx906-2.27.7-rocm7.2.4"
  },
  "mixa3607-ML-gfx906": {
-  "sha": "ab2a93dedafc6c4cb222008f478b4032bb22f2ac",
-  "prev": "4c4fb1d2644bf79bab81c90076be9fc4a794e81f",
-  "date": "2026-11-15",
-  "pushed_at": "2026-11-15",
-  "version": "20261115214657",
-  "version_url": "https://github.com/mixa3607/ML-gfx906/releases/tag/20261115214657",
+  "sha": "204a49663f7e0a0d5dbd90b47a6fdeb8aed0e5ee",
+  "prev": "ab2a93dedafc6c4cb222008f478b4032bb22f2ac",
+  "date": "2026-11-21",
+  "pushed_at": "2026-11-21",
+  "version": "20261122014204",
+  "version_url": "https://github.com/mixa3607/ML-gfx906/releases/tag/20261122014204",
   "blocks": {
    "vllm": {
     "sha": "10d3897f2b1d723c7b50a2bb93e401e67df2e9a7",
@@ -57,8 +57,8 @@
     "date": "2026-10-19"
    },
    "strata": {
-    "sha": "9579d9bf12ac8c9d1cd69f9f30b9587f1398187d",
-    "date": "2026-10-27"
+    "sha": "5a4080825b08b1f0805c4e2320ad457f8e263485",
+    "date": "2026-11-21"
    }
   }
  },
