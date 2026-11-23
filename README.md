@@ -70,5 +70,5 @@ power caps, clocks), original vs modified PCB, amdvbflash flashing, and UPP over
 [CHANGELOG.md](CHANGELOG.md) — every repo move, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
-_Hub status last refreshed: 2026-11-23 14:15 UTC — 16 tracked, 0 unreachable._
+_Hub status last refreshed: 2026-11-23 18:05 UTC — 16 tracked, 0 unreachable._
 <!-- HUB-FOOTER:END -->
