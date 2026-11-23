@@ -44,7 +44,7 @@ tracked forks, and the standing setup notes.
 
 | repo | focus | updated | head | version |
 |---|---|---|---|---|
-| [Llaminar/llaminar](https://github.com/Llaminar/llaminar) | standalone C++ GGUF engine with first-class MI50 (gfx906) support — Qwen 3/3.5/3.6/3.8 (dense + MoE) | 2026-11-22 | `61f45187` | [2026-09-27.1](https://github.com/Llaminar/llaminar/releases/tag/2026-09-27.1) |
+| [Llaminar/llaminar](https://github.com/Llaminar/llaminar) | standalone C++ GGUF engine with first-class MI50 (gfx906) support — Qwen 3/3.5/3.6/3.8 (dense + MoE) | 2026-11-23 | `61f45187` | [2026-09-27.1](https://github.com/Llaminar/llaminar/releases/tag/2026-09-27.1) |
 
 <!-- HUB-STATUS:END -->
 
@@ -70,5 +70,5 @@ power caps, clocks), original vs modified PCB, amdvbflash flashing, and UPP over
 [CHANGELOG.md](CHANGELOG.md) — every repo move, newest first.
 
 <!-- HUB-FOOTER:BEGIN -->
-_Hub status last refreshed: 2026-11-22 09:28 UTC — 16 tracked, 0 unreachable._
+_Hub status last refreshed: 2026-11-23 14:15 UTC — 16 tracked, 0 unreachable._
 <!-- HUB-FOOTER:END -->
