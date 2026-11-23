@@ -1,0 +1,43 @@
+name: Hub status refresh
+
+on:
+  schedule:
+    # Nightly, 06:17 UTC. Scheduled runs always use the default branch.
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hub-status-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # A PAT in the HUB_TOKEN secret is only needed if branch protection
+          # blocks pushes from the default GITHUB_TOKEN.
+          token: ${{ secrets.HUB_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Regenerate status files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/gfx906-hub-check.py
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git add README.md CHANGELOG.md docs/STATUS.md data/last-seen.json
+          if git diff --cached --quiet; then
+            echo "no status changes"
+            exit 0
+          fi
+          git config user.name "gfx906-hub-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "hub: nightly status update (refresh)"
+          git push
